@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <!-- Links -->
+<head>
+    <title> HowToCube </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script src="https://kit.fontawesome.com/ea984401d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Head -->
+<header>
+    <img class="logo" src="img/logo.png" alt="">
+    <h1>
+        <strong>
+            <a href="index.html" class="Home"> HowToCube </a>   
+        </strong>
+    </h1>
+</header> 
+<nav class="navbar">
+    <p class="introduction"> How to solve a Rubik's Cube </p>
+    <ul class="nav__list">
+    <li class="nav__item">
+            <a href="about.html" class="nav__link"> About </a>
+    </li>
+        <li class="nav__item">
+            <a href="notations.html" class="nav__link"> Notations </a>
+        <ul class="nav__itemdropA">
+            <li class="text"><a href="notations.html#Bnot"> Basic Notations  </a></li>
+            <li class="text"><a href="notations.html#Balg"> Basic Algorithms </a></li>
+        </ul>
+    </li>
+        <li class="nav__item">
+            <a href="guide.html" class="nav__link"> Guide </a>
+            <ul class="nav__itemdropB">
+                <li class="text"> <a href="guide.html#Cross"> White Cross </a></li>
+                <li class="text"><a href="guide.html#F2L"> F2L </a></li>
+                <li class="text"><a href="guide.html#OLL"> OLL </a></li>
+                <li class="text"><a href="guide.html#PLL"> PLL </a></li>
+            </ul>
+        </li>
+        <li class="nav__item">
+            <a href="logbook.html" class="nav__link"> Logbook </a>
+        </li>
+</nav>
+    <!-- Introduction -->
+<article> <br><br>
+    <div class="container">
+        <div class="rubiks-cube">
+          <div class="top-clone">
+            <div class="column-face top clone-left">
+              <div class="left-one"></div>
+              <div class="left-two"></div>
+              <div class="left-three"></div>
+            </div>
+            <div class="column-face top clone-middle">
+              <div class="middle-one"></div>
+              <div class="middle-two"></div>
+              <div class="middle-three"></div>
+            </div>
+            <div class="column-face top clone-right">
+              <div class="right-one"></div>
+              <div class="right-two"></div>
+              <div class="right-three"></div>
+            </div>
+          </div>
+          <div class="top-row">
+            <div class="row-face front">
+              <div class="front-one"></div>
+              <div class="front-two"></div>
+              <div class="front-three"></div>
+            </div>
+            <div class="row-face left">
+              <div class="left-one"></div>
+              <div class="left-two"></div>
+              <div class="left-three"></div>
+            </div>
+            <div class="row-face back">
+              <div class="back-one"></div>
+              <div class="back-two"></div>
+              <div class="back-three"></div>
+            </div>
+            <div class="row-face right">
+              <div class="right-one"></div>
+              <div class="right-two"></div>
+              <div class="right-three"></div>
+            </div>
+          </div>
+          <div class="middle-row">
+            <div class="row-face front">
+              <div class="front-one"></div>
+              <div class="front-two"></div>
+              <div class="front-three"></div>
+            </div>
+            <div class="row-face left">
+              <div class="left-one"></div>
+              <div class="left-two"></div>
+              <div class="left-three"></div>
+            </div>
+            <div class="row-face back">
+              <div class="back-one"></div>
+              <div class="back-two"></div>
+              <div class="back-three"></div>
+            </div>
+            <div class="row-face right">
+              <div class="right-one"></div>
+              <div class="right-two"></div>
+              <div class="right-three"></div>
+            </div>
+          </div>
+          <div class="bottom-row">
+            <div class="row-face right">
+              <div class="right-one"></div>
+              <div class="right-two"></div>
+              <div class="right-three"></div>
+            </div>
+            <div class="row-face left">
+              <div class="left-one"></div>
+              <div class="left-two"></div>
+              <div class="left-three"></div>
+            </div>
+          </div>
+          <div class="left-column">
+            <div class="column-face front">
+              <div class="front-one"></div>
+              <div class="front-two"></div>
+              <div class="front-three"></div>
+            </div>
+            <div class="column-face back">
+              <div class="back-one"></div>
+              <div class="back-two"></div>
+              <div class="back-three"></div>
+            </div>
+            <div class="column-face bottom">
+              <div class="bottom-one"></div>
+              <div class="bottom-two"></div>
+              <div class="bottom-three"></div>
+            </div>
+          </div>
+          <div class="middle-column">
+            <div class="column-face front">
+              <div class="front-one"></div>
+              <div class="front-two"></div>
+              <div class="front-three"></div>
+            </div>
+            <div class="column-face top">
+              <div class="top-one"></div>
+              <div class="top-two"></div>
+              <div class="top-three"></div>
+            </div>
+            <div class="column-face back">
+              <div class="back-one"></div>
+              <div class="back-two"></div>
+              <div class="back-three"></div>
+            </div>
+            <div class="column-face bottom">
+              <div class="bottom-one"></div>
+              <div class="bottom-two"></div>
+              <div class="bottom-three"></div>
+            </div>
+          </div>
+          <div class="right-column">
+            <div class="column-face front">
+              <div class="front-one"></div>
+              <div class="front-two"></div>
+              <div class="front-three"></div>
+            </div>
+            <div class="column-face back">
+              <div class="back-one"></div>
+              <div class="back-two"></div>
+              <div class="back-three"></div>
+            </div>
+            <div class="column-face bottom">
+              <div class="bottom-one"></div>
+              <div class="bottom-two"></div>
+              <div class="bottom-three"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</article>
+<footer> <br>
+    <a href="mailto:rarestudor5@gmail.com" class="footer__link"> rarestudor@dev </a>
+			<ul class="social-list">
+				<li class="social-list__item"><a class="social-list__link" href="https://codepen.io"> <i class="fab fa-codepen"></i> </a></li>
+				<li class="social-list__item"><a class="social-list__link" href="https://stackoverflow.com/users/17089753/sirsauce"> <i class="fab fa-stack-overflow"></i> </a></li>
+				<li class="social-list__item"><a class="social-list__link" href="https://github.com/SirSaucey"> <i class="fab fa-github"></i> </a></li>
+			</ul>
+</footer>
+</body>
+</html>
