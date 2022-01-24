@@ -1,0 +1,25 @@
+.WIC {
+    float: right;
+    margin-right: 32.5rem;
+}
+.Cube {
+    width: 15%;
+    height: 25%;
+    float: left;
+    margin-left: 5rem;
+}
+.Erno {
+    width: 15%;
+    height: 25%;
+    float: left;
+    margin-left: -16rem;
+    margin-top: 10rem;
+}
+.Ernotext {
+    float: right;
+    margin-top: 2rem;
+    margin-right: 42.5rem;
+}
+footer {
+    font-size: small;
+}

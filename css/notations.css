@@ -1,0 +1,40 @@
+h3 {
+    margin-left: 34rem;
+}
+.cubenots {
+    width: 20%;
+    height: 30%;
+    margin-top: -4rem;
+    float: left;
+    margin-left: 4rem;
+}
+.advancednots {
+    width: 20%;
+    height: 30%;
+    margin-top: 8rem;
+    margin-left: -22rem;
+}
+.basicnots {
+    margin-left: 34rem;
+    margin-top: -24rem;
+}
+h4 {
+    margin-left: 34rem;
+    margin-top: -2.5rem;
+    font-weight: bold;
+}
+.algtext {
+    margin-left: 34rem;
+    margin-top: -1.5rem;
+}
+.algs {
+    margin-left: 0rem;
+    margin-top: -3.5rem;
+}
+.alg {
+    margin-top: -1.5rem;
+    margin-left: 32rem;
+}
+footer {
+    font-size: small;
+}
