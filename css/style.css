@@ -115,7 +115,7 @@ h1 {
     cursor: pointer;
     text-decoration: none;
     font-weight: var(--fw-bold);
-    box-shadow: 29px 0px 0px 0px black, 30px 0px 0px white;
+    border-right: 10px solid black, 1px solid white;
 }
 .nav__item {
     list-style: none;
@@ -125,6 +125,9 @@ h1 {
 .nav__item:hover ul, :focus ul {
     opacity: 1;
     visibility: visible;
+}
+.nav__link:hover, :focus {
+    box-shadow: 0px 2px 0px 0px white;
 }
 .nav__itemdropA {
     position: absolute;

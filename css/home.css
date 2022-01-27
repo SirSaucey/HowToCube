@@ -1,3 +1,6 @@
+#home {
+  box-shadow: 0px 2px 0px 0px white;
+}
 @keyframes rotate {
   from {
     transform: rotateY(-30deg) rotateX(-30deg);

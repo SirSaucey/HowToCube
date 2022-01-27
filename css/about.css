@@ -4,16 +4,16 @@
 }
 .Cube {
     width: 15%;
-    height: 25%;
+    height: 30%;
     float: left;
     margin-left: 5rem;
 }
 .Erno {
     width: 15%;
-    height: 25%;
+    height: 30%;
     float: left;
-    margin-left: -16rem;
-    margin-top: 10rem;
+    margin-left: -16.5rem;
+    margin-top: 11rem;
 }
 .Ernotext {
     float: right;
@@ -22,4 +22,7 @@
 }
 footer {
     font-size: small;
+}
+#about {
+    box-shadow: 0px 2px 0px 0px white;
 }
