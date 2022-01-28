@@ -1,28 +1,80 @@
+article {
+    height: 120%;;
+}
 #guide {
     box-shadow: 0px 2px 0px 0px white;
 }
 #blueimg {
     width: 10%;
-    height: 25%;
-    margin-left: 2rem;
-    margin-top: 1rem;
+    height: 15%;
+	margin-top: 2rem;
 }
 #greenimg {
     width: 10%;
-    height: 25%;
-    margin-left: 2rem;
+    height: 18%;
+    margin-left: 14rem;
+	margin-top: -11.5rem;
+	position: absolute;
 }
 #crossimg {
     width: 10%;
-    height: 30%;
+    height: 17%;
     margin-right: 10rem;
     margin-top: 6rem;
     float: right;
 }
+#g-alg {
+    margin-left: 11rem;
+}
 #Cross {
-    margin-left: 20rem;
-    margin-top: -18rem;
+    margin-left: 10rem;
 }
 #crosstext {
-    margin-left: 20rem;
+    margin-left: 10rem;
+}
+#go-back {
+	font-weight: var(--fw-bold);
+}
+#F2L-div {
+	margin-left: 10rem;
+	margin-top: 2rem;
+}
+#f2l-photo {
+    float: right;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+    width: 12.5%;
+    height: 30%;
+}
+#wcross-text {
+    float: right;
+    margin-top: 16rem;
+    margin-right: -8.5rem;
+}
+#F2L-text {
+    float: right;
+    margin-top: 11.5rem;
+    margin-right: -7rem;
+}
+#fstep {
+    width: 10%;
+    height: 15%;
+}
+#ffstep {
+    width: 10%;
+    height: 15%;
+}
+#f2lstep {
+    margin-left: 12rem;
+    margin-top: -12.5rem;
+}
+#ffsstep {
+    width: 10%;
+    height: 15%;
+    margin-top: -1.5rem;
+}
+#tstep {
+	width: 10%;
+	height: 15%;
+    margin-top: -12rem;
 }

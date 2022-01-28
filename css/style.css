@@ -3,7 +3,7 @@ body, html {
     width: 100%;
     height: 100%;
     margin: auto 0;
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
     font-family: var(--ff-primary);
 	font-size: var(--fs-body);
     color: var(--clr-light);
