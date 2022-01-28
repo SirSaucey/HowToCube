@@ -1,0 +1,15 @@
+#logbook {
+    box-shadow: 0px 2px 0px 0px white;
+}
+#log-book {
+	margin-left: 5rem;
+}
+#trello {
+	font-size: var(--fs-h3);
+	font-weight: var(--fw-bold);
+}
+#miro {
+	font-size: var(--fs-h3);
+	font-weight: var(--fw-bold);
+	padding-left: 5rem;
+}
