@@ -50,30 +50,64 @@
 </nav>
 <article> 
 	<div id="cross-div">
-    <img src="img/white-cross.png" id="crossimg">  <br>
-	</div>
-	<br>
+    <img src="img/white-cross.png" id="crossimg"><br>
+	</div><br>
     <h3 id="Cross"> The White Cross </h3>
     <p id="crosstext"> 
         Hold the cube with the white face on top and yellow on bottom <br>
-        Search for the white edges <br>
-        There are many more combinations but with the basic notations and algorithms, you should be able to do them alone <br>
-        <a href="notations.html#Bnot" id="go-back"> If that is not the case click here </a><br>
-        Do this until you get the final result <br>
-		<img src="img/blue-move.png" id="blueimg"> <br>
-		D R R <a id="g-alg"> U R <a> <br>
-		<img src="img/green-move.png" id="greenimg"> 
+        Search for the white edges <br>5
+        Edges have 2 sides, while corners have 3 sides <br>
+        There are many combinations but with the <a href="notations.html#Bnot" id="go-back"> basic notations and algorithms</a>, you should be able to do them alone <br>
     </p>
 	<div id="F2L-div">
-    <h3 id="F2L"> First 2 Layers </h3>
-	<img src="img/F2L.png" id="f2l-photo">
-    <p id="f2l-text"> 
-		Now instead of inserting the edges, we'll insert the corners <br>
-		<img src="img/f2l-fstep.jpg" id="fstep"> <img src="img/f2l-sstep.jpg" id="ffstep"> <img src="img/f2l-tstep.jpg" id="tstep"> <br>
-		
-		
-    </p>
-	</div>
+        <h3 id="F2L"> First 2 Layers </h3>
+            <img src="img/F2L.png" id="f2l-photo" alt="F2L">
+            <p id="f2l-text"> 
+                Instead of inserting the edges, we'll now insert the corners <br>
+                There are 3 possible situations: <br>
+                If the edge is on the other side, just do L instead of R <br>
+                <img src="img/f2l-fstep.jpg" id="F2L-photo"> <img src="img/f2l-third.jpg" id="F2L-photo"> <img src="img/f2l-fourth.jpg" id="F2L-photo"> (last one is on the bottom) <br>
+                R' D' R D' R' D R&emsp;&ensp; D' R' D R&emsp;&emsp;&emsp;&emsp; R' D' R then use the first algorithm <br>
+                When done, it should be like in the photo on the side
+                <img src="img/OLL.jpg" id="f2l-photo" alt="F2L"><br>
+                Now we'll focus on the second layer <br>
+                Turn the cube upside down and start looking for matches <br>
+                <img src="img/second-layer.jpg" id="F2L-photo">  <img src="img/second-layer3.jpg" id="F2L-photo">(no matches in last photo) <br>
+                First posibility: Green on bottom with orange on top. Do U U2 then hold green side in front with yellow on top R U' R' U' F' U F <br>
+                Second posibility: First photo but L variant instead of R <br>
+                Third posibility: Yellow bottom with orange top. Match it with the corresponding color, this case is orange. Do U', hold green side in front L' U L U F' U' F<br> 
+                When done, it should look like the photo on the side <br>
+            </p>
+    </div>
+	<div id="F2L-div">
+        <h3 id="OLL"> Orientation of the Last Layer </h3>
+        <img src="img/PLL.jpg" id="f2l-photo" alt="PLL">
+        <p id="oll-text">
+            OLL focuses on completing the yellow face <br>
+            There are many algorithms but we'll only use 3 <br>
+            <img src="img/oll-step.jpg" id="F2L-photo"> <img src="img/OLL-step2.jpg" id="F2L-photo"><br>
+            F R U R' U' F' &emsp;and you should get a yellow cross. If that's not the case repeat the step, doesn't matter how the yellow pieces are placed <br> 
+            <img src="img/OLL-1.jpg" id="F2L-photo"> <img src="img/OLL-2.jpg" id="F2L-photo"> <img src="img/OLL-3.jpg" id="F2L-photo"><br>
+            First photo: L U' L' U' L U U L' <br>
+            Second photo: R U R' U R U' U' R' <br>
+            Third photo: Use algorithm from second photo <br>
+            You should now have something like the photo on the side <br>
+        </p>
+    </div>
+    <div id="F2L-div">
+        <h3 id="PLL"> Permutation of the Last Layer </h3>
+        <p id="pll-text">
+            PLL is the last step to solve a Rubik's cube <br>
+            We are changing the position of the corners, edges don't matter right now<br> 
+            There are 3 algorithms<br>
+            For the corners: R U U R' U' R U U L' U  R' U' L and L' U' U' L U L' U' U' R U' L U R' <br>
+            <img src="img/pll-step.jpg" id="F2L-photo"> <br>
+            If your cube looks like in the photos, grab the opposite face of the completed face (in this case it's green, so we'll grab blue)<br>
+           <img src="img/pll-second.jpg" id="F2L-photo"> <img src="img/pll-third.jpg" id="F2L-photo"> <br>
+            R R U R U R' U' R' U' R' U R' (repeat if not complete) <br>
+            <strong> Congratulations! You have completed a Rubik's Cube for the first time now </strong>
+        </p>
+    </div>
 </article>
 <footer> 
     <a href="mailto:rarestudor5@gmail.com" class="footer__link"> rarestudor@dev </a>
