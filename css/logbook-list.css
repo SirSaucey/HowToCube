@@ -1,0 +1,194 @@
+.logbook-list {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+	margin-top: 3rem;
+    margin-left: -8rem;
+    list-style: none;
+	float: left;
+}
+.logbook-link {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 2rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-list:hover ul, :focus ul {
+    opacity: 1;
+    visibility: visible;
+}
+.logbook-drop {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 3rem;
+	margin-right: -26rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link2 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 6rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop2 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 7rem;
+	margin-right: -26rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link3 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 10rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop3 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 11rem;
+	margin-right: -26rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link4 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 14rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop4 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 15rem;
+	margin-right: -26rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link5 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 18rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop5 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 19rem;
+	margin-right: -26rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link6 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 22rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop6 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 23rem;
+	margin-right: -26rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link7 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 26rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop7 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 27rem;
+	margin-right: -26rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link8 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 30rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop8 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 31rem;
+	margin-right: -26rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link9 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+	margin-top: 2rem;
+    margin-left: 36rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop9 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 3rem;
+	margin-right: 6rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}

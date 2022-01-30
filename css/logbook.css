@@ -7,9 +7,15 @@
 #trello {
 	font-size: var(--fs-h3);
 	font-weight: var(--fw-bold);
+	float: right;
+	margin-right: 16rem;
 }
 #miro {
-	font-size: var(--fs-h3);
-	font-weight: var(--fw-bold);
-	padding-left: 3rem;
+	float: right;
+	margin-right: -22rem;
+	margin-top: 4rem;
+}
+#logbook-text {
+	float: left;
+	font-size: var(--fs-h2);
 }

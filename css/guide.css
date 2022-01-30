@@ -1,20 +1,8 @@
 article {
-    height: 120%;;
+    height: 280%;;
 }
 #guide {
     box-shadow: 0px 2px 0px 0px white;
-}
-#blueimg {
-    width: 10%;
-    height: 15%;
-	margin-top: 2rem;
-}
-#greenimg {
-    width: 10%;
-    height: 18%;
-    margin-left: 14rem;
-	margin-top: -11.5rem;
-	position: absolute;
 }
 #crossimg {
     width: 10%;
@@ -42,9 +30,9 @@ article {
 #f2l-photo {
     float: right;
     margin-right: 10rem;
-    margin-bottom: 2rem;
-    width: 12.5%;
-    height: 30%;
+    margin-top: 3rem;
+    width: 11%;
+    height: 25%;
 }
 #wcross-text {
     float: right;
@@ -56,25 +44,7 @@ article {
     margin-top: 11.5rem;
     margin-right: -7rem;
 }
-#fstep {
+#F2L-photo {
     width: 10%;
     height: 15%;
-}
-#ffstep {
-    width: 10%;
-    height: 15%;
-}
-#f2lstep {
-    margin-left: 12rem;
-    margin-top: -12.5rem;
-}
-#ffsstep {
-    width: 10%;
-    height: 15%;
-    margin-top: -1.5rem;
-}
-#tstep {
-	width: 10%;
-	height: 15%;
-    margin-top: -12rem;
 }
