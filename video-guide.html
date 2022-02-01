@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/video-guide.css">
     <script src="https://kit.fontawesome.com/ea984401d2.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,7 +15,7 @@
     <img class="logo" src="img/logo.png" alt="">
     <h1>
         <strong>
-            <a href="index.html" class="Home"> HowToCube </a>
+            <a href="index.html" class="Home"> HowToCube </a>   
         </strong>
     </h1>
 </header> 
@@ -28,7 +28,7 @@
         <li class="nav__item">
             <a href="about.html" class="nav__link" id="about"> About </a>
           </li>
-        <li class="nav__item">
+          <li class="nav__item">
             <a href="notations.html" class="nav__link" id="notations"> Notations </a>
         </li>
         <li class="nav__item">
@@ -47,33 +47,45 @@
             <a href="logbook.html" class="nav__link" id="logbook"> Logbook </a>
         </li>
 </nav>
-<article> <br> <br>
-        <!-- Cube -->
-<img src="img/cube.jpg" class="Cube">
-<a class="WIC">
-    <h3> What is a Rubik's Cube? </h3>
-        <p> Rubik's cube is a puzzle in the shape of a cube with 6 faces.
-            <br>
-            Each face has a different color. Usually that is White, Red, Green, Blue, Orange, Yellow.
-            </br>
-            Each face of the cube is made up of nine faces of the same color. 
-            <br> In total 54 surfaces are visible on the outside.
-    </p>
-</a>
-    <!-- Erno Rubik -->  
-<br>
-<img src="img/erno-rubik.jpg" class="Erno">
-<a class="Ernotext">
-    <h3> Who invented it? </h3>
-        <p> Erno Rubik is a Hungarian inventor and professor born 13 July 1944
-            <br>
-            He invented the "Magic Cube" in 1974 and more alike puzzles
-            </br>
-    </p>
-</a>
-
+<article> <br><br>
+    <div id="cross-div">
+        </div><br>
+        <h3 id="Cross"> <i class="fas fa-cube"></i> The White Cross </h3>
+        <p id="crosstext"> 
+            Hold the cube with the white face on top and yellow on bottom <br>
+            Search for the white edges <br>5
+            Edges have 2 sides, while corners have 3 sides <br>
+            
+        </p>
+        <div id="F2L-div">
+            <a href="video-guide.html#home"><h3 id="F2L"> First 2 Layers <i class="fas fa-long-arrow-alt-up"></i></a></h3>
+                
+                <p id="f2l-text"> 
+                    Instead of inserting the edges, we'll now insert the corners <br>
+                    There are 3 possible situations: <br>
+                   
+                </p>
+        </div>
+        <div id="F2L-div">
+            <a href="video-guide.html#Cross"><h3 id="OLL"> Orientation of the Last Layer <i class="fas fa-long-arrow-alt-up"></i></a></h3>
+            
+            <p id="oll-text">
+                OLL focuses on completing the yellow face <br>
+                There are many algorithms but we'll only use 3 <br>
+                
+            </p>
+        </div>
+        <div id="F2L-div"></a>
+            <a href="video-guide.html#OLL"><h3 id="PLL"> Permutation of the Last Layer <i class="fas fa-long-arrow-alt-up"></i></a></h3>
+            <p id="pll-text">
+                PLL is the last step to solve a Rubik's cube <br>
+                We are changing the position of the corners, edges don't matter right now<br> 
+                There are 3 algorithms<br>
+                
+            </p>
+        </div>
 </article>
-<footer> 
+<footer>
     <a href="mailto:rarestudor5@gmail.com" class="footer__link"> rarestudor@dev </a>
 			<ul class="social-list">
 				<li class="social-list__item"><a class="social-list__link" href="https://codepen.io"> <i class="fab fa-codepen"></i> </a></li>
