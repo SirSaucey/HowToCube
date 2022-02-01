@@ -11,6 +11,7 @@
     font-weight: bold;
     color: var(--clr-light);
     position: relative;
+    height: 3rem;
 	margin-top: 2rem;
     text-decoration: none;
     font-weight: var(--fw-bold);
@@ -25,7 +26,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 3rem;
+	margin-top: 2rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -35,7 +36,8 @@
     font-weight: bold;
     color: var(--clr-light);
     position: relative;
-	margin-top: 6rem;
+    height: 3rem;
+	margin-top: 5rem;
     text-decoration: none;
     font-weight: var(--fw-bold);
 	font-size: var(--fs-h3);
@@ -45,7 +47,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 7rem;
+	margin-top: 6rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -55,7 +57,8 @@
     font-weight: bold;
     color: var(--clr-light);
     position: relative;
-	margin-top: 10rem;
+    height: 3rem;
+	margin-top: 8rem;
     text-decoration: none;
     font-weight: var(--fw-bold);
 	font-size: var(--fs-h3);
@@ -65,7 +68,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 11rem;
+	margin-top: 10rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -75,7 +78,8 @@
     font-weight: bold;
     color: var(--clr-light);
     position: relative;
-	margin-top: 14rem;
+    height: 3rem;
+	margin-top: 11rem;
     text-decoration: none;
     font-weight: var(--fw-bold);
 	font-size: var(--fs-h3);
@@ -85,7 +89,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 15rem;
+	margin-top: 14rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -95,7 +99,8 @@
     font-weight: bold;
     color: var(--clr-light);
     position: relative;
-	margin-top: 18rem;
+    height: 3rem;
+	margin-top: 14rem;
     text-decoration: none;
     font-weight: var(--fw-bold);
 	font-size: var(--fs-h3);
@@ -105,7 +110,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 19rem;
+	margin-top: 18rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -114,8 +119,9 @@
 .logbook-link6 {
     font-weight: bold;
     color: var(--clr-light);
+    height: 3rem;
     position: relative;
-	margin-top: 22rem;
+	margin-top: 17rem;
     text-decoration: none;
     font-weight: var(--fw-bold);
 	font-size: var(--fs-h3);
@@ -125,7 +131,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 23rem;
+	margin-top: 22rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -133,9 +139,10 @@
 }
 .logbook-link7 {
     font-weight: bold;
+    height: 3rem;
     color: var(--clr-light);
     position: relative;
-	margin-top: 26rem;
+	margin-top: 20rem;
     text-decoration: none;
     font-weight: var(--fw-bold);
 	font-size: var(--fs-h3);
@@ -145,7 +152,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 27rem;
+	margin-top: 26rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -154,8 +161,9 @@
 .logbook-link8 {
     font-weight: bold;
     color: var(--clr-light);
+    height: 3rem;
     position: relative;
-	margin-top: 30rem;
+	margin-top: 23rem;
     text-decoration: none;
     font-weight: var(--fw-bold);
 	font-size: var(--fs-h3);
@@ -165,7 +173,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 31rem;
+	margin-top: 30rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -175,6 +183,7 @@
     font-weight: bold;
     color: var(--clr-light);
     position: relative;
+    height: 3rem;
 	margin-top: 2rem;
     margin-left: 36rem;
     text-decoration: none;
@@ -186,7 +195,29 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 3rem;
+	margin-top: 2rem;
+	margin-right: 6rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link10 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+    height: 3rem;
+	margin-top: -3rem;
+    margin-left: 47.7rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop10 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 1rem;
 	margin-right: 6rem;
     opacity: 0;
     visibility: hidden;
