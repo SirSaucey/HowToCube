@@ -173,7 +173,7 @@
     background-color: var(--clr-dark);
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
-	margin-top: 30rem;
+	margin-top: 27rem;
 	margin-right: -26rem;
     opacity: 0;
     visibility: hidden;
@@ -218,6 +218,28 @@
     width: 18rem;
 	box-shadow: 0px 0px 5px 2px gray;
 	margin-top: 1rem;
+	margin-right: 6rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+.logbook-link11 {
+    font-weight: bold;
+    color: var(--clr-light);
+    position: relative;
+    height: 3rem;
+	margin-top: -3rem;
+    margin-left: 47.7rem;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+	font-size: var(--fs-h3);
+}
+.logbook-drop11 {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 18rem;
+	box-shadow: 0px 0px 5px 2px gray;
+	margin-top: 0rem;
 	margin-right: 6rem;
     opacity: 0;
     visibility: hidden;

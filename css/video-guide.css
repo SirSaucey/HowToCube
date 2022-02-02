@@ -2,7 +2,7 @@
     box-shadow: 0px 2px 0px 0px white;
 }
 article {
-    height: 150%;
+    height: 220%;
 }
 #Cross {
     margin-left: 10rem;
@@ -28,4 +28,7 @@ article {
     float: right;
     margin-top: 16rem;
     margin-right: -8.5rem;
+}
+video {
+    width: 10%;
 }
